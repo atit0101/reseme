@@ -3,7 +3,7 @@
 const nextConfig = {
     reactStrictMode: true,
     output: "export",
-    // basePath: "/web"
+    basePath: "/resume"
 };
 
 export default nextConfig;
