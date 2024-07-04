@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     alternateLocale: ["es_ES", "th_TH"],
     images: [
       {
-        url: "/src/app/asset/homepage.png",
+        url: "/asset/homepage.png",
         width: 1200,
         height: 630,
         alt: "image atit website"
