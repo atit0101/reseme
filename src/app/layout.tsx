@@ -15,10 +15,17 @@ export const metadata: Metadata = {
   description: "Welcome to my professional resume page!",
   openGraph: {
     url: "https://atit.site",
-    type: "profile",
+    type: "website",
     title: "Hello Welcome to ... , My name Atit",
     description: "Welcome to my professional resume page!!",
-    images: "https://atit.site/homepage.png"
+    images: [
+      {
+        url: "https://atit.site/homepage.png",
+        width: 1200,
+        height: 630,
+        alt: "Hello Welcome to ... , My name Atit"
+      }
+    ]
     // determiner: 'the',
     // title: "AK-DEV",
     // description: "Welcome to my professional resume page!",
@@ -39,11 +46,8 @@ export const metadata: Metadata = {
     // ttl: 3600
   },
 
-  //   <meta property="og:url"                content="https://contentmastery.io/on-page-seo/" />
-  // <meta property="og:type"               content="article" />
-  // <meta property="og:title"              content="On-Page SEO คืออะไร พร้อมแนวทางปฏิบัติที่ดีที่สุดเพื่อติดหน้าแรก Google" />
-  // <meta property="og:description"        content="On-Page SEO คือการปรับแต่งหน้าเว็บของเราให้ optimize หรือดีต่อ Google Search เป็นสิ่งที่เราสามารถควบคุมได้โดยตรง โดยส่วนใหญ่แล้วจะเกี่ยวข้องกับการเขียนและปรับคอนเทนต์บนหน้าเว็บไซต์ " />
-  // <meta property="og:image"  
+
+
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode; }>) {
