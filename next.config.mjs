@@ -3,7 +3,10 @@
 const nextConfig = {
     reactStrictMode: true,
     output: "export",
-    basePath: "/resume"
+    basePath: "/resume",
+    experimental: {
+        metadata: true,
+    },
 };
 
 export default nextConfig;

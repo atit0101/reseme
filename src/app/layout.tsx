@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     alternateLocale: ["es_ES", "th_TH"],
     images: [
       {
-        url: "/asset/homepage.png",
+        url: "https://atit.site/asset/homepage.png",
         width: 1200,
         height: 630,
         alt: "image atit website"
@@ -39,6 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+
       <body className={inter.className}>
         <Navbar></Navbar>
         {children}
