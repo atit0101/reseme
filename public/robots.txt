@@ -26,9 +26,13 @@
 #
 #
 #
-#Disallow: /browse/
+# Allow Facebook's scraper
+#User-agent: facebookexternalhit
+#Disallow:
 
-User-Agent: *
+# Block other bots from accessing specific directories
+User-agent: *
 Allow: /
+Disallow:
 
 Sitemap: https://acme.com/sitemap.xml
