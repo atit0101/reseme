@@ -10,9 +10,25 @@ export const metadata: Metadata = {
   title: "AK-DEV",
   description: "Welcome to my professional resume page!",
   openGraph: {
+    determiner: 'the',
     title: "AK-DEV",
     description: "Welcome to my professional resume page!",
-    images: "/src/app/asset/homepage.png"
+    emails: "sunny20747@gmail.com",
+    phoneNumbers: ["+0937786806"],
+    siteName: "https://atit.site",
+    locale: "en_US",
+    alternateLocale: ["es_ES", "th_TH"],
+    images: [
+      {
+        url: "/src/app/asset/homepage.png",
+        width: 1200,
+        height: 630,
+        alt: "image atit website"
+      }
+    ],
+    url: "https://atit.site",
+    countryName: "Thailand",
+    ttl: 3600
   }
 };
 
