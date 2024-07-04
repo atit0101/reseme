@@ -17,7 +17,8 @@ export const metadata: Metadata = {
     url: "https://atit.site",
     type: "profile",
     title: "Hello Welcome to ... , My name Atit",
-    description: "Welcome to my professional resume page!"
+    description: "Welcome to my professional resume page!!"
+
     // determiner: 'the',
     // title: "AK-DEV",
     // description: "Welcome to my professional resume page!",
